@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-reactnative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd reactnative && npm i && npm i -g react-native-cli",
+    "start": "cd reactnative && react-native run-android",
+    "generate": "nuxt generate && node replace"
+  },
+  "author": "Rubystar Ashe <rubystarashe@gmail.com> (https://github.io/rubystarashe)",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "^2.2.0",
+    "replace": "^1.0.0"
+  }
+}

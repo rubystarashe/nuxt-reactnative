@@ -1,0 +1,6 @@
+const { Nuxt, Builder, Generator } = require('nuxt')
+const config = require('./nuxt.config.js')
+const nuxt = new Nuxt(config)
+const builder = new Builder(nuxt)
+const generator = new Generator(nuxt, builder)
+generator.generate()

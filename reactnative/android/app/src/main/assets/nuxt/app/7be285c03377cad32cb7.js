@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{134:function(n,t,e){"use strict";e.r(t);var o=e(19),u=Object(o.a)({},function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",[n._v("\r\n  One\r\n  "),e("button",{on:{click:function(t){n.$router.push("/two")}}},[n._v("go two")])])},[],!1,null,null,null);u.options.__file="one.vue";t.default=u.exports}}]);
